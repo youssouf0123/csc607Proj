@@ -8,7 +8,6 @@ import { Track } from 'ngx-audio-player';
 })
 export class AppComponent {
 
-	displayVolumeControls = true;
 	msaapDisplayTitle = true;
 	msaapDisplayPlayList = true;
 	msaapPageSizeOptions = [2,4,6];
@@ -17,12 +16,12 @@ export class AppComponent {
 	// Material Style Advance Audio Player Playlist
 	msaapPlaylist: Track[] = [
 	  {
-	    title: 'Audio One Title',
-	    link: 'https://www.computerhope.com/jargon/m/example.mp3'
+	    title: 'Amandrai - Ali Farka Toure',
+	    link: 'http://mande-dev.com/static/AliFarkaToure-Amandrai.mp3'
 	  },
 	  {
-	    title: 'Audio Two Title',
-	    link: 'https://www.computerhope.com/jargon/m/example.mp3'
+	    title: 'Amandrai - Ali Farka Toure & Ry Cooder',
+	    link: 'http://mande-dev.com/static/AliFarkaToure-AmandraiwithRyCooder.mp3'
 	  },
 	  {
 	    title: 'Audio Three Title',
